@@ -38,7 +38,7 @@
                   I am interested in enabling robots to effectively collaborate with humans by inferring human's intentions and reactions in uncertain and dynamic environments. 
                   At ICAROS lab, I study diverse collaboration behaviors, develop hierarchical POMDP frameworks for human-aware robotic planning under uncertainty, and infer human observation functions to improve robot decision-making in tasks. 
                   I have interned at Toyota Research Institute working 
-                  with <a href="https://people.csail.mit.edu/rosman/">Guy Rosman</a>, <a href="https://scholar.google.com/citations?user=Pnbjx1AAAAAJ&hl=en">Jonathan DeCastro</a> and <a href="https://github.com/andrew-silva/andrew-silva.github.io">Andrew Silva</a> 
+                  with <a href="https://people.csail.mit.edu/rosman/">Guy Rosman</a>, <a href="https://scholar.google.com/citations?user=Pnbjx1AAAAAJ&hl=en">Jonathan DeCastro</a> and <a href="https://www.andrew-silva.com/">Andrew Silva</a> 
                   on designing an
                   <!-- human-reaction-time-aware  -->
                   assistive driving 
@@ -55,7 +55,7 @@
 
                 <p style="text-align:center">
                   <!-- <a href="mailto:yachuan815@gmail.com">Email</a> &nbsp;/&nbsp; -->
-                  <a href="data/SophieHsu-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/SophieHsuCV.pdf">CV</a> &nbsp;/&nbsp;
                   <!-- <a href="data/SophieHsu-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?user=40WQ9NwAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://twitter.com/SophieHsu13">Twitter</a> 
@@ -79,12 +79,46 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <!-- <p>
-                I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</papertitle>.
               </p> -->
             </td>
           </tr>
         </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <!-- <div class="two" id='cat3d_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/overcooked.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div> -->
+                  <img src='images/fov_2d.gif' width="160">
+                  <img src='images/fov_baseline.gif' width="160">
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="data/papers/2025_ICRA.pdf">
+                <strong>Integrating Field of View in Human-Aware Collaborative Planning</strong>
+                </a>
+                <br>
+                <strong><u>Ya-Chuan Hsu</u></strong>,
+                Michael Defranco, 
+                Rutvik Patel, 
+                <a class="black_link" href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
+
+                <br>
+                <em>ICRA</em>, 2025 <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+                <br>
+                <a href="data/papers/2025_ICRA.pdf">Paper</a> |
+                <a href="">Code (Release on March 6, 2025)</a>
+                <p></p>
+                <p>
+                  This paper integrates human field-of-view (FOV) limitations into robot planning by adapting to the evolving subtask intent of humans based on their limited perception. To manage the resulting computational complexity, we propose a hierarchical online planner. In a steakhouse domain study, our FOV-aware planner reduced human interruptions and redundant actions. We further demonstrate our planner in a virtual reality kitchen environment.
+                </p>
+              </td>
+            </tr>
+
             <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -97,16 +131,16 @@
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/pdf/2304.13787">
-                <span class="papertitle">Surrogate Assisted Generation of Human-Robot Interaction Scenarios</span>
+                <papertitle>Surrogate Assisted Generation of Human-Robot Interaction Scenarios</papertitle>
                 </a>
                 <br>
-                <a href="">Varun Bhatt</a>, 
-                <a href="">Heramb Nemlekar</a>, 
-                <a href="https://scholar.google.com/citations?user=RqSvzikAAAAJ&hl=en">Matthew C. Fontaine</a>,
-                <a href="https://btjanaka.net/">Bryon Tjanaka</a>,
-                <a href="">Hejia Zhang</a>, 
-                <strong>Ya-Chuan Hsu</strong>, 
-                <a href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
+                <a class="black_link" href="">Varun Bhatt</a>, 
+                <a class="black_link" href="">Heramb Nemlekar</a>, 
+                <a class="black_link" href="https://scholar.google.com/citations?user=RqSvzikAAAAJ&hl=en">Matthew C. Fontaine</a>,
+                <a class="black_link" href="https://btjanaka.net/">Bryon Tjanaka</a>,
+                <a class="black_link" href="">Hejia Zhang</a>, 
+                <strong><u>Ya-Chuan Hsu</u></strong>, 
+                <a class="black_link" href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
 
                 <br>
                 <em>CoRL</em>, 2023 <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
@@ -131,15 +165,15 @@
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/pdf/2206.10608">
-                <span class="papertitle">Generating diverse indoor furniture arrangements</span>
+                <papertitle>Generating diverse indoor furniture arrangements</papertitle>
                 </a>
                 <br>
-                <strong>Ya-Chuan Hsu</strong>, 
-                <a href="https://scholar.google.com/citations?user=RqSvzikAAAAJ&hl=en">Matthew C. Fontaine</a>,
-                <a href="">Sam Earle</a>, 
-                <a href="">Maria Edwards</a>,
-                <a href="">Julian Togelius</a>,
-                <a href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
+                <strong><u>Ya-Chuan Hsu</u></strong>, 
+                <a class="black_link" href="https://scholar.google.com/citations?user=RqSvzikAAAAJ&hl=en">Matthew C. Fontaine</a>,
+                <a class="black_link" href="">Sam Earle</a>, 
+                <a class="black_link" href="">Maria Edwards</a>,
+                <a class="black_link" href="">Julian Togelius</a>,
+                <a class="black_link" href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
 
                 <br>
                 <em>SIGGRAPH Poster</em>, 2022 <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
@@ -164,24 +198,86 @@
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                 <a href="https://overcooked-lsi.github.io/">
-                <span class="papertitle">On the Importance of Environments in Human-Robot Coordination</span>
+                <papertitle>On the Importance of Environments in Human-Robot Coordination</papertitle>
                 </a>
                 <br>
-                <a href="https://scholar.google.com/citations?user=RqSvzikAAAAJ&hl=en">Matthew C. Fontaine</a>*,
-                <strong>Ya-Chuan Hsu</strong>*, 
-                <a href="https://yulunzhang.net/">Yulun Zhang</a>*, 
-                <a href="https://btjanaka.net/">Bryon Tjanaka</a>,
-                <a href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
+                <a class="black_link" href="https://scholar.google.com/citations?user=RqSvzikAAAAJ&hl=en">Matthew C. Fontaine</a>*,
+                <strong><u>Ya-Chuan Hsu</u></strong>*, 
+                <a class="black_link" href="https://yulunzhang.net/">Yulun Zhang</a>*, 
+                <a class="black_link" href="https://btjanaka.net/">Bryon Tjanaka</a>,
+                <a class="black_link" href="https://stefanosnikolaidis.net">Stefanos Nikolaidis</a>
 
                 <br>
                 <em>RSS</em>, 2021 <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
                 <br>
-                <a href="https://overcooked-lsi.github.io/">project page</a>
+                <a href="https://overcooked-lsi.github.io/">Project Page</a>
                 /
                 <a href="https://arxiv.org/abs/2106.10853">arXiv</a>
                 <p></p>
                 <p>
                   Research on human-robot collaboration often focuses on robot policies for fluent teamwork, overlooking the impact of the environment on coordination. We propose a framework for procedurally generating environments that are stylistically human-like, solvable by human-robot teams, and diverse in coordination behaviors.
+                </p>
+              </td>
+            </tr>
+
+            <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <!-- <div class="two" id='cat3d_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/c1.gif" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div> -->
+                  <img src='images/c1.gif' width="160">
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://cse-robotics.engr.tamu.edu/dshell/papers/iros2020pedestrian.pdf">
+                <papertitle>A POMDP Treatment of Vehicle-Pedestrian Interaction: Implicit Coordination via Uncertainty-Aware Planning</papertitle>
+                </a>
+                <br>
+                <strong><u>Ya-Chuan Hsu</u></strong>, 
+                <a class="black_link" href="https://engineering.tamu.edu/mechanical/profiles/gopalswamy-s.html">Swaminathan Gopalswamy</a>, 
+                <a class="black_link" href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html">Srikanth Saripalli</a>,
+                <a class="black_link" href="https://cse-robotics.engr.tamu.edu/dshell/">Dylan A Shell</a>
+
+                <br>
+                <em>IROS</em>, 2020 <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+                <br>
+                <a href="https://cse-robotics.engr.tamu.edu/dshell/papers/iros2020pedestrian.pdf">Paper</a>
+                <p></p>
+                <p>
+                  This paper tackles the challenge of resolving ambiguous traffic situations where autonomous vehicles cannot directly communicate intent. It proposes a model using a partially observable Markov decision process (POMDP) to produce changes in speed to express intent. The approach is validated in a simulated vehicle-pedestrian crossing and tested in real-world trials with a self-driving car, demonstrating safe and efficient navigation.
+                </p>
+              </td>
+            </tr>
+
+            <tr onmouseout="cat3d_stop()" onmouseover="cat3d_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <!-- <div class="two" id='cat3d_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/overcooked.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div> -->
+                  <img src='images/vtc_image.png' width="160">
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://cse-robotics.engr.tamu.edu/dshell/papers/vtc2018mdp.pdf">
+                <papertitle>An MDP model of vehicle-pedestrian interaction at an unsignalized intersection</papertitle>
+                </a>
+                <br>
+                <strong><u>Ya-Chuan Hsu</u></strong>, 
+                <a class="black_link" href="https://engineering.tamu.edu/mechanical/profiles/gopalswamy-s.html">Swaminathan Gopalswamy</a>, 
+                <a class="black_link" href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html">Srikanth Saripalli</a>,
+                <a class="black_link" href="https://cse-robotics.engr.tamu.edu/dshell/">Dylan A Shell</a>
+
+                <br>
+                <em>VTC-Fall</em>, 2018 <!-- &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+                <br>
+                <a href="https://cse-robotics.engr.tamu.edu/dshell/papers/vtc2018mdp.pdf">Paper</a>
+                <p></p>
+                <p>
+                  This paper is a preliminary study on communication between pedestrians and autonomous vehicles at unsignalized intersections. We propose a decision-theoretic model, using an MDP framework inspired by psychological studies, to represent pedestrian-vehicle interactions.
                 </p>
               </td>
             </tr>
